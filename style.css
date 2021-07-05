@@ -1,0 +1,118 @@
+header{
+    
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;   
+
+}
+ a, li {
+    text-decoration: none;
+}
+.nav-links{
+    display: flex;
+    justify-content:flex-end;
+
+}
+.nav-links li{
+    list-style: none;
+    display: inline-block;
+}
+.nav-links li a{
+    margin: 0 20px;
+    color: black;
+    
+}
+
+body{
+    margin:5% ;
+    font-family: 'Bona Nova', serif;
+   
+}
+h1{
+    font-size: 70px;
+}
+.blue-highlight{
+    color: rgb(158, 136, 238);
+}
+.highlight{
+    color: rgba(153, 22, 55, 0.541);
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+section{
+    height: 500px;
+    padding-bottom: 170px;
+}
+.link-button{
+    background-image: linear-gradient(270deg,lightsalmon,tomato);
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.center{
+    text-align: center;
+}
+.center p{
+    font-size: 70px;
+    font-weight: 700;
+}
+.one-third{
+    width: 20%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+}
+.one-third img{
+    width: 100%;
+}
+
+.box{
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 5px;
+    height: 70%;
+
+
+}
+.project{
+    margin-left: 50px;
+}
+.bg{
+    background-image: url(shapes/bg.png);
+    background-repeat: no-repeat;
+    margin: -40px;
+    margin-left: 35px;
+}
+
+.bg .text{
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+    padding: 115px 90px;
+}
+
+.bg .button{
+    float: right;
+    background-color: #fb7562;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.footer{
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+}
+.footer img{
+    height: 40px;
+    width: 40px;
+}
